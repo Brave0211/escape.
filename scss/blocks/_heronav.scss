@@ -1,0 +1,34 @@
+.heronav {
+   padding-top: 22px;
+   padding-bottom: 23px;   
+}
+
+.heronav__list {
+   @include list-unstyled;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+// .heronav__item {
+// }
+
+.heronav__link {
+   color: $color-grey;
+   text-decoration: none;
+   font-family: $font-stack;
+
+   &:hover{
+      color: $color-primary;
+   }
+}
+
+@include breakpoint-down(541px){
+   .heronav__list{
+      flex-wrap: wrap;
+   }
+
+   .heronav__item{
+      margin-bottom: 10px;
+   }
+}

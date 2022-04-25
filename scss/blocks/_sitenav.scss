@@ -1,0 +1,45 @@
+// .sitenav {
+// }
+
+.sitenav__logo {
+   color: $color-white;
+}
+
+.sitenav__logo:hover{
+   color: $color-primary
+}
+
+.sitenav__list {
+   @include list-unstyled;
+   display: flex;
+   align-items: center;
+}
+
+.sitenav__item:not(:last-child) {
+   margin-right: 40px;
+}
+
+.sitenav__item-link {
+   text-decoration: none;
+   color: $color-white;
+}
+
+.sitenav__item-link:hover{
+   color: $color-primary;
+}
+
+.sitenav__btn{
+   display: none;
+   background-color: $color-primary;
+   border: 0;
+}
+
+@include breakpoint-down (541px){
+   .sitenav__list{
+      display: none;
+   }
+
+   .sitenav__btn{
+      display: block;
+   }
+}

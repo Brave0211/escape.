@@ -1,0 +1,104 @@
+.featured {
+   padding-top: 60px;
+   padding-bottom: 67px;
+ }
+ 
+ .featured__title {
+   max-width: 188px;
+   margin: 0 auto;
+   margin-bottom: 23px;
+   padding-bottom: 16px;
+   font-size: 20px;
+   line-height: 27px;
+   text-align: center;
+   letter-spacing: 2px;
+   color: #2E2E2E;
+   border-bottom: 1px solid #dedede;
+ }
+
+ .featured__content-wrapper{
+    display: flex;
+    align-items: center;
+ }
+
+ .featured__content {
+    width: 460px;
+    margin-right: 20px;
+    padding: 20px;
+    padding-top: 157px;
+    background-image: url(../../img/wimol-yogdusi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+ .featured__content-2 {
+    width: 460px;
+    padding: 20px;
+    padding-top: 157px;
+    background-image: url(../../img/fonus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.featured__content-title {
+   margin: 0;
+   margin-bottom: 6px;
+   font-family: $font-stack;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+   color: $color-white;
+}
+
+.featured__content-desc {
+   margin: 0;
+   margin-bottom: 17px;
+   font-size: 14px;
+   line-height: 25px;
+   color:rgba(255, 255, 255, 0.7);
+}
+
+.featured__content-wrapper-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.featured__inner-desc {
+   display: flex;
+   align-items: center;
+}
+
+.featured__inner-img {
+   display: block;
+   width: 26px;
+   height: 26px;
+   margin-right: 10px;
+   background-color: $color-grey;
+   border-radius: 50%;
+}
+
+.featured__content-inner-desc {
+   font-size: 12px;
+   line-height: 35px;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.featured__inner-data {
+   font-size: 12px;
+   line-height: 35px;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+@include breakpoint-down(600px){
+   .featured__content-wrapper{
+      flex-direction: column;
+   }
+
+   .featured__content{
+      margin-right: 0;
+      margin-bottom: 20px;
+   }
+}

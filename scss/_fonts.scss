@@ -1,0 +1,27 @@
+/* FONTS */
+@font-face {
+   font-family: 'Roboto';
+   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Oxygen';
+   src: url('../fonts/Oxygen-Regular.woff2') format('woff2'),
+       url('../fonts/Oxygen-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lora';
+   src: url('../fonts/Lora-Regular.woff2') format('woff2'),
+       url('../fonts/Lora-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
