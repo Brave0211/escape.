@@ -703,8 +703,12 @@ img {
             flex-direction: column;
   }
   .featured__content {
+    max-width: 400px;
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  .featured__content-2 {
+    max-width: 400px;
   }
 }
 
