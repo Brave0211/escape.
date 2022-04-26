@@ -50,3 +50,9 @@ form{
    justify-content: space-between;
    align-items: center;
 }
+
+@include breakpoint-down(401px){
+   .footer__input{
+      max-width: 300px;
+   }
+}

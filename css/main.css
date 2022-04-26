@@ -585,6 +585,9 @@ img {
   .heronav__item {
     margin-bottom: 10px;
   }
+  .heronav__item {
+    width: 150px;
+  }
 }
 
 .featured {
@@ -703,12 +706,12 @@ img {
             flex-direction: column;
   }
   .featured__content {
-    max-width: 400px;
+    max-width: 300px;
     margin-right: 0;
     margin-bottom: 20px;
   }
   .featured__content-2 {
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 
@@ -871,5 +874,11 @@ form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (max-width: 401px) {
+  .footer__input {
+    max-width: 300px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
